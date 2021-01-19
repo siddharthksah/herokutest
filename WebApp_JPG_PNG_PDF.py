@@ -86,15 +86,15 @@ if uploaded_file2 is not None:
     elif extension2 == "png":
         back_image = Image.open(uploaded_file2)
 
-        st.image(back_image, caption='Uploaded Front Image', use_column_width=True)
+        st.image(back_image, caption='Uploaded back Image', use_column_width=True)
 
     elif extension2 == "jpg":
 
         # SHOW IMAGE IF JPG FORMAT
 
-        back_image = Image.open(uploaded_file1)
+        back_image = Image.open(uploaded_file2)
 
-        st.image(back_image, caption='Uploaded Front Image', use_column_width=True)
+        st.image(back_image, caption='Uploaded back Image', use_column_width=True)
 
 
     else:
