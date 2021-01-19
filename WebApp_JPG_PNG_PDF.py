@@ -9,7 +9,7 @@ import pytesseract
 import streamlit as st
 from PIL import Image
 
-pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = './.apt/usr/bin/tesseract'
 
 
 uploaded_file1 = st.file_uploader("Choose the front image", type=['jpg', 'png', 'pdf'], key=1)
