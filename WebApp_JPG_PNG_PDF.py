@@ -3,7 +3,7 @@ import fitz
 import base64
 import re
 import time
-import cv2
+from cv2 import *
 import pandas as pd
 import pytesseract
 import streamlit as st
