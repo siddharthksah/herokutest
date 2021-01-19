@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run WebApp JPG PNG PDF.py
+web: sh setup.sh && streamlit run WebApp_JPG_PNG_PDF.py
