@@ -89,6 +89,7 @@ PyPDF2==1.26.0
 pypng==0.0.20
 pyrsistent==0.17.3
 pytesseract
+tesseract
 python-dateutil==2.8.1
 pytz==2020.5
 PyWavelets==1.1.1
