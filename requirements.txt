@@ -8,3 +8,5 @@ scikit-image
 scipy
 streamlit==0.74.1
 pytesseract
+freeglut3-dev
+libgtk2.0-dev
