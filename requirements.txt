@@ -3,6 +3,7 @@ numpy
 opencv-python==4.5.1.48
 pandas
 Pillow==8.1.0
+PyMuPDF
 scikit-image
 scipy
 streamlit==0.74.1
